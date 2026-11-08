@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <tool name="Text">
+      <a name="text" val="NguyenTanTai_6651071062"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings/>
+  <toolbar/>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(610,560)" to="(660,560)"/>
+    <wire from="(610,580)" to="(660,580)"/>
+    <wire from="(750,600)" to="(750,740)"/>
+    <wire from="(900,560)" to="(960,560)"/>
+    <wire from="(730,600)" to="(730,700)"/>
+    <wire from="(800,560)" to="(840,560)"/>
+    <wire from="(710,600)" to="(710,660)"/>
+    <wire from="(130,340)" to="(170,340)"/>
+    <wire from="(100,100)" to="(170,100)"/>
+    <wire from="(100,160)" to="(170,160)"/>
+    <wire from="(100,220)" to="(170,220)"/>
+    <wire from="(100,280)" to="(170,280)"/>
+    <wire from="(100,400)" to="(170,400)"/>
+    <wire from="(690,600)" to="(690,620)"/>
+    <wire from="(770,600)" to="(770,780)"/>
+    <comp lib="0" loc="(770,780)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="clr"/>
+    </comp>
+    <comp lib="0" loc="(100,280)" name="Pin">
+      <a name="label" val="Clear"/>
+    </comp>
+    <comp lib="0" loc="(750,740)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="one"/>
+    </comp>
+    <comp lib="0" loc="(170,160)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="din"/>
+    </comp>
+    <comp lib="4" loc="(800,560)" name="RAM">
+      <a name="addrWidth" val="3"/>
+      <a name="dataWidth" val="4"/>
+      <a name="bus" val="separate"/>
+    </comp>
+    <comp lib="0" loc="(900,560)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="dout"/>
+    </comp>
+    <comp lib="0" loc="(100,100)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="label" val="Addr"/>
+    </comp>
+    <comp lib="0" loc="(170,220)" name="Tunnel">
+      <a name="label" val="we"/>
+    </comp>
+    <comp lib="0" loc="(170,100)" name="Tunnel">
+      <a name="width" val="3"/>
+      <a name="label" val="addr"/>
+    </comp>
+    <comp lib="6" loc="(684,465)" name="Text"/>
+    <comp lib="0" loc="(730,700)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(130,340)" name="Clock"/>
+    <comp lib="0" loc="(690,620)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="we"/>
+    </comp>
+    <comp lib="0" loc="(100,400)" name="Constant"/>
+    <comp lib="0" loc="(710,660)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="one"/>
+    </comp>
+    <comp lib="0" loc="(170,400)" name="Tunnel">
+      <a name="label" val="one"/>
+    </comp>
+    <comp lib="0" loc="(610,560)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="3"/>
+      <a name="label" val="addr"/>
+    </comp>
+    <comp lib="0" loc="(100,160)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="Din"/>
+    </comp>
+    <comp lib="0" loc="(610,580)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="din"/>
+    </comp>
+    <comp lib="6" loc="(399,276)" name="Text">
+      <a name="text" val="NguyenTanTai_6651071062"/>
+    </comp>
+    <comp lib="0" loc="(100,220)" name="Pin">
+      <a name="label" val="Load"/>
+    </comp>
+    <comp lib="0" loc="(170,340)" name="Tunnel">
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(960,560)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Dout"/>
+    </comp>
+    <comp lib="0" loc="(840,560)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="dout"/>
+    </comp>
+    <comp lib="0" loc="(170,280)" name="Tunnel">
+      <a name="label" val="clr"/>
+    </comp>
+  </circuit>
+</project>
